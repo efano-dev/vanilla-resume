@@ -1,7 +1,7 @@
 :root {
-    --white: #fff;
-    --gray: #eee;
-    --dark-blue: #323b4c;
+    --color-white: #fff;
+    --color-gray: #eee;
+    --color-dark-blue: #323b4c;
     --fs-1: 28pt;
     --fs-2: 16pt;
     --fs-3: 12pt;
@@ -26,8 +26,8 @@
 }
 
 body {
-    background-color: var(--gray);
-    color: var(--dark-blue);
+    background-color: var(--color-gray);
+    color: var(--color-dark-blue);
     font-family: "Lato", serif;
     font-weight: var(--fw-normal);
     font-style: normal;
@@ -39,7 +39,7 @@ main {
     display: flex;
     width: var(--resume-width);
     height: var(--resume-height);
-    background-color: var(--white);
+    background-color: var(--color-white);
     margin: 50px auto;
 }
 
@@ -74,8 +74,8 @@ li {
 .personal-info {
     width: var(--personal-info-width);
     height: 100%;
-    background-color: var(--dark-blue);
-    color: var(--white);
+    background-color: var(--color-dark-blue);
+    color: var(--color-white);
     padding: var(--resume-padding-normal) 0 0 var(--resume-padding-large);
 }
 
