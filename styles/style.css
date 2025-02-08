@@ -1,0 +1,86 @@
+:root {
+    --white: #fff;
+    --gray: #eee;
+    --dark-blue: #323b4c;
+    --fs-1: 28pt;
+    --fs-2: 16pt;
+    --fs-3: 12pt;
+    --fs-4: 9pt;
+    --fw-normal: 400;
+    --fw-bold: 900;
+    --personal-info-width: 7.3cm;
+    --work-exp-width: 13.7cm;
+    --resume-width: calc(var(--personal-info-width) + var(--work-exp-width));
+    --resume-height: 29.7cm;
+    --resume-image-width-height: 4.4cm;
+    --resume-padding-normal: 0.8cm;
+    --resume-padding-large: 1.45cm;
+    --text-margin-normal: 0.2cm;
+    --text-margin-large: 0.4cm;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--gray);
+    color: var(--dark-blue);
+    font-family: "Lato", serif;
+    font-weight: var(--fw-normal);
+    font-style: normal;
+    font-size: var(--fs-4);
+    line-height: 1.5;
+}
+
+main {
+    display: flex;
+    width: var(--resume-width);
+    height: var(--resume-height);
+    background-color: var(--white);
+    margin: 50px auto;
+}
+
+section {
+    margin-block: var(--text-margin-large);
+}
+
+h1 {
+    font-size: var(--fs-1);
+}
+
+h2 {
+    font-size: var(--fs-2);
+}
+
+h3 {
+    font-size: var(--fs-3);
+}
+
+h1, h2, h3 {
+    font-weight: var(--fw-bold);
+}
+
+h1, h2, h3, p, li {
+    margin-block: var(--text-margin-normal);
+}
+
+li {
+    margin-left: var(--text-margin-large);
+}
+
+.personal-info {
+    width: var(--personal-info-width);
+    height: 100%;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    padding: var(--resume-padding-normal) 0 0 var(--resume-padding-large);
+}
+
+.resume-image {
+    width: var(--resume-image-width-height);
+    height: var(--resume-image-width-height);
+    border-radius: calc(var(--resume-image-width-height) / 2);
+}
