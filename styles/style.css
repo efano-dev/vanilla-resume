@@ -84,3 +84,9 @@ li {
     height: var(--resume-image-width-height);
     border-radius: calc(var(--resume-image-width-height) / 2);
 }
+
+.work-exp {
+    width: var(--work-exp-width);
+    height: 100%;
+    padding: var(--resume-padding-normal);
+}
