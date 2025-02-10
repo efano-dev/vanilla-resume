@@ -71,7 +71,7 @@ li {
     margin-left: var(--text-margin-large);
 }
 
-.personal-info {
+.personal__info {
     width: var(--personal-info-width);
     height: 100%;
     background-color: var(--color-dark-blue);
@@ -79,13 +79,13 @@ li {
     padding: var(--resume-padding-normal) 0 0 var(--resume-padding-large);
 }
 
-.resume-image {
+.resume__image {
     width: var(--resume-image-width-height);
     height: var(--resume-image-width-height);
     border-radius: calc(var(--resume-image-width-height) / 2);
 }
 
-.work-exp {
+.work__exp {
     width: var(--work-exp-width);
     height: 100%;
     padding: var(--resume-padding-normal);
