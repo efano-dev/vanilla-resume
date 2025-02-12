@@ -1,7 +1,21 @@
+@font-face {
+    font-family: "Lato";
+    src: url("../assets/fonts/Lato-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../assets/fonts/Lato-Black.ttf");
+    font-weight: 900;
+    font-style: normal;
+}
+
 :root {
-    --color-white: #fff;
-    --color-gray: #eee;
-    --color-dark-blue: #323b4c;
+    --color-white: hsl(0, 0%, 100%);
+    --color-gray: hsl(0, 0%, 93%);
+    --color-dark-blue: hsl(219, 21%, 25%);
     --fs-1: 28pt;
     --fs-2: 16pt;
     --fs-3: 12pt;
